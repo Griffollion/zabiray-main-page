@@ -1,0 +1,104 @@
+.details details {
+    display: block;
+    background: #fff;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 0 0 10px 0;
+}
+
+.details details:last-child {
+    margin-bottom: 0;
+}
+
+.details summary::-webkit-details-marker {
+    display: none
+}
+
+.details summary::-moz-list-bullet {
+    list-style-type: none
+}
+
+.details summary::marker {
+    display: none
+}
+
+.details summary {
+    display: block;
+    padding: 15px 50px 15px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    border-radius: 5px;
+    background: #F6F7F9;
+    line-height: 20px;
+}
+
+.details summary:before {
+    content: "";
+    top: 15px;
+    right: 15px;
+    color: transparent;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAABCcAAAQnAEmzTo0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAEqSURBVHgB7dU9zoIwGAfwpzUkjhLgCCSEyRu8ryfQG6iTqzcynkQ9gbqRsOjmQIhuTuDTRBJCwNKPQZPnnzSU0pZfoGkBKBQKhfLdGbQ1RlH07/v+HMs1y7I7WEwcx2PP81au6z7yPL81n7O2AUVRHEW9LMs71idpmp7AEgbn3GEZvZsmSZLs6314cxACplWdMTbinO/CMByDfYzIX7Mfbxl7qN/YQHVgRLYgA70/4dIW6gNmge+6NPuzrolwYS/wsqm3qa4pCWbbNqYTZIrSwUhBuihdTC+QKsoE0xvUF2WKUQLJUI7jgClGGfQJhdsCmGJEBqAYPNtO4ozD6qxqw31qiJchGGK0QF0oGxhtkASljTECVaggCM74yyK8fWJZm2AoFAqF8gt5AfItAqvn4UgrAAAAAElFTkSuQmCC) 50% 50%/20px 20px no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    -webkit-transform: rotate(0) scale(1);
+    -ms-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+    -webkit-transition: -webkit-transform .25s;
+    transition: transform .25s;
+    -o-transition: transform .25s;
+    transition: transform .25s, -webkit-transform .25s
+}
+
+.details details[open] > summary:before {
+    -webkit-transform: rotate(180deg) scale(1);
+    -ms-transform: rotate(180deg) scale(1);
+    transform: rotate(180deg) scale(1)
+}
+
+.details summary ~ * {
+    padding: 0
+}
+
+.details details[open] summary {
+    border-radius: 5px 5px 0 0;
+}
+
+.details details[open] summary ~ * {
+    -webkit-animation: none;
+    animation: none;
+    background: #F6F7F9;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 5px 50px 15px 15px;
+    border-radius: 0 0 5px 5px;
+}
+
+.details summary:focus {
+    outline: 0
+}
+
+@media screen and (min-width: 1200px) {
+    .details summary {
+        padding: 25px 75px 25px 30px;
+        font-size: 18px;
+        line-height: 26px;
+
+    }
+
+    .details details[open] summary ~ * {
+        font-size: 18px;
+        line-height: 26px;
+        padding: 0 75px 25px 30px;
+        position: relative;
+        z-index: 2;
+        margin-top: -5px;
+    }
+
+    .details summary:before {
+        top: 25px;
+        right: 30px;
+    }
+}

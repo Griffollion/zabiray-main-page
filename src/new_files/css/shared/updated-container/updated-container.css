@@ -1,0 +1,14 @@
+.updated-container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+    .updated-container {
+        max-width: 1200px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0 auto;
+    }
+}
