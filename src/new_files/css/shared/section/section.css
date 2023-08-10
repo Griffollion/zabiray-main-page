@@ -1,1 +1,40 @@
+.section {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section.section--indent-bottom {
+    padding-bottom: 30px;
+    padding-top: 0;
+}
+
+.section.section--indent-top {
+    padding-bottom: 0;
+    padding-top: 30px;
+}
+
+.section h1,
+.section h2,
+.section h3,
+.section h4,
+.section h5 {
+    margin-top: 0;
+}
+
+@media screen and (min-width: 991px) {
+    .section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .section.section--indent-bottom {
+        padding-bottom: 80px;
+        padding-top: 0;
+    }
+
+    .section.section--indent-top {
+        padding-bottom: 0;
+        padding-top: 80px;
+    }
+}
 
