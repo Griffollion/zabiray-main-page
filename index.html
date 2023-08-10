@@ -14,26 +14,31 @@
           href="./src/files_from_site/css/css_IAREUsOfHU4OHeJyE2dCYjb_dSChrgWKlYOZnmdpuY4.css">
     <!--Старые стили //end-->
 
-
     <!--Новые стили-->
     <link rel="stylesheet" href="./src/new_files/css/core/typography/typography.css">
+
+    <link rel="stylesheet" href="./src/new_files/css/libs/sick-slider/slick.css">
+    <link rel="stylesheet" href="./src/new_files/css/libs/sick-slider/slick-custom.css">
+
+
     <link rel="stylesheet" href="./src/new_files/css/shared/updated-container/updated-container.css">
     <link rel="stylesheet" href="./src/new_files/css/shared/section/section.css">
     <link rel="stylesheet" href="./src/new_files/css/shared/chip/chip.css">
 
     <link rel="stylesheet" href="./src/new_files/css/entities/expert-card/expert-card.css">
     <link rel="stylesheet" href="./src/new_files/css/entities/details/details.css">
+    <link rel="stylesheet" href="./src/new_files/css/entities/relink-column/relink-column.css">
 
     <link rel="stylesheet" href="./src/new_files/css/widgets/expert-opinion/expert-opinion.css">
-
     <link rel="stylesheet" href="./src/new_files/css/widgets/updated-table/updated-table.css">
+    <link rel="stylesheet" href="./src/new_files/css/widgets/news-grid/news-grid.css">
+    <link rel="stylesheet" href="./src/new_files/css/widgets/relink-blocks-container/relink-blocks-container.css">
     <!--Новые стили //end-->
 </head>
 <body>
 <main>
-
-
     <!--Таблица примера расчета-->
+    <!--TODO: новые стили и разметка -->
     <section class="section">
         <div class="updated-container">
             <h2>Пример расчета займа онлайн</h2>
@@ -69,6 +74,7 @@
 
 
     <!--Мнение эксперта-->
+    <!--TODO: новые стили и разметка -->
     <section class="section">
         <div class="updated-container">
             <h2>Займ онлайн — мнение эксперта</h2>
@@ -104,8 +110,83 @@
     </section>
     <!--Мнение эксперта //end-->
 
+    <!--Новости-->
+    <section class="section">
+        <div class="updated-container">
+            <h2>Новости</h2>
+            <adise>
+                <!--TODO: добавил всего лишь один класс в div с классом grid. Все остальное такое же как и сейчас на ресурсе -->
+                <div class="grid news-grid">
+                    <div class="views-field views-field-title">
+                        <span class="field-content">
+                            <article class="grid-item">
+                                <div class="image">
+                                    <img src="https://zabiray.ru/sites/default/files/2022-02/n200.jpg"
+                                         alt="Почему могут отказать в получении микрозайма?">
+                                </div>
+                                <div class="info">
+                                    <p class="info-date">08.08.2023</p>
+                                    <a href="/novosti/pochemu_mogut_otkazat_v_zayme">Почему могут отказать в получении
+                                        микрозайма?</a>
+                                    <div class="info-text">
+                                        <p>Микрофинансовые организации отличаются высоким процентом одобрений и
+                                            лояльными требованиями к заемщикам. Но несмотря на это, иногда клиенты
+                                            получают отказы.</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </span>
+                    </div>
+                    <div class="views-field views-field-title">
+                        <span class="field-content">
+                            <article class="grid-item">
+                                <div class="image">
+                                    <img src="https://zabiray.ru/sites/default/files/2021-12/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82.jpg"
+                                         alt="В чем отличие микрозайма от кредита">
+                                </div>
+                                <div class="info">
+                                    <p class="info-date">06.08.2023</p>
+                                    <a href="/novosti/otlichiye_mikrozayma_ot_kredita">В чем отличие микрозайма от
+                                        кредита</a>
+                                    <div class="info-text">
+                                        <p>Микрозайм и кредит — это виды денежной ссуды. Заемщик получает деньги от
+                                            банка или МФО на определенных условиях</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </span>
+                    </div>
+                    <div class="views-field views-field-title">
+                        <span class="field-content">
+                            <article class="grid-item">
+                                <div class="image">
+                                    <img src="https://zabiray.ru/sites/default/files/2021-10/3.png"
+                                         alt="Улучшают ли микрозаймы кредитную историю?">
+                                </div>
+                                <div class="info">
+                                    <p class="info-date">04.08.2023</p>
+                                    <a href="/novosti/uluchshayut_li_mikrozaymy_ki">Улучшают ли микрозаймы кредитную
+                                        историю?</a>
+                                    <div class="info-text">
+                                        <p>Рассмотрим как микрозаймы влияют на кредитную историю</p>
+                                    </div>
+                                </div>
+                            </article>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="flex justify-content-center">
+                    <a class="btn btn-primary" style="display: block"><span>Получить заем</span></a>
+                </div>
+            </adise>
+        </div>
+    </section>
+    <!--Новости //end-->
+
 
     <!--Ответы на вопросы-->
+    <!--TODO: новые стили и разметка -->
     <section class="section">
         <div class="updated-container">
             <h2>Отвечаем на вопросы о займах онлайн</h2>
@@ -134,6 +215,204 @@
         </div>
     </section>
     <!--Ответы на вопросы //end-->
+
+    <!--Перелинковка-->
+    <section class="section">
+        <div class="updated-container">
+            <h2>Популярные займы</h2>
+            <div class="relink-blocks-container" data-relink-blocks-container="root">
+                <div class="relink-column" data-relink-column="root">
+                    <ul class="relink-column__list" data-relink-column="list">
+                        <li><a href="#">Безработным</a></li>
+                        <li><a href="#">Пенсионерам</a></li>
+                        <li><a href="#">Студентам</a></li>
+                        <li><a href="#">Бизнес</a></li>
+                        <li><a href="#">С 18 лет</a></li>
+                        <li><a href="#">С 19 лет</a></li>
+                        <li><a href="#">С 20 лет</a></li>
+                        <li><a href="#">С 21 года</a></li>
+                    </ul>
+                </div>
+
+                <div class="relink-column" data-relink-column="root">
+                    <ul class="relink-column__list" data-relink-column="list">
+                        <li><a href="#">Безработным</a></li>
+                        <li><a href="#">Пенсионерам</a></li>
+                        <li><a href="#">Студентам</a></li>
+                        <li><a href="#">Бизнес</a></li>
+                        <li><a href="#">С 18 лет</a></li>
+                        <li><a href="#">С 19 лет</a></li>
+                        <li><a href="#">С 20 лет</a></li>
+                        <li><a href="#">С 21 года</a></li>
+                    </ul>
+                </div>
+
+                <div class="relink-column" data-relink-column="root">
+                    <ul class="relink-column__list" data-relink-column="list">
+                        <li><a href="#">Безработным</a></li>
+                        <li><a href="#">Пенсионерам</a></li>
+                        <li><a href="#">Студентам</a></li>
+                        <li><a href="#">Бизнес</a></li>
+                        <li><a href="#">С 18 лет</a></li>
+                        <li><a href="#">С 19 лет</a></li>
+                        <li><a href="#">С 20 лет</a></li>
+                        <li><a href="#">С 21 года</a></li>
+                    </ul>
+                </div>
+
+                <div class="relink-column" data-relink-column="root">
+                    <ul class="relink-column__list" data-relink-column="list">
+                        <li><a href="#">Безработным</a></li>
+                        <li><a href="#">Пенсионерам</a></li>
+                        <li><a href="#">Студентам</a></li>
+                        <li><a href="#">Бизнес</a></li>
+                        <li><a href="#">С 18 лет</a></li>
+                        <li><a href="#">С 19 лет</a></li>
+                        <li><a href="#">С 20 лет</a></li>
+                        <li><a href="#">С 21 года</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Перелинковка //end-->
+
+    <!--Перелинковка-->
+    <section class="section">
+        <div class="updated-container">
+            <h2>Займы в городах</h2>
+            <div class="relink-blocks-container" data-relink-blocks-container="root">
+                <div class="relink-column" data-relink-column="root">
+                    <ul class="relink-column__list" data-relink-column="list">
+                        <li><a href="#">100 рублей</a></li>
+                        <li><a href="#">500 рублей</a></li>
+                        <li><a href="#">1 000 рублей</a></li>
+                        <li><a href="#">2 000 рублей</a></li>
+                        <li><a href="#">5 000 рублей</a></li>
+                        <li><a href="#">6 000 рублей</a></li>
+                        <li><a href="#">7 000 рублей</a></li>
+                        <li><a href="#">8 000 рублей</a></li>
+                    </ul>
+                </div>
+
+                <div class="relink-column" data-relink-column="root">
+                    <ul class="relink-column__list" data-relink-column="list">
+                        <li><a href="#">100 рублей</a></li>
+                        <li><a href="#">500 рублей</a></li>
+                        <li><a href="#">1 000 рублей</a></li>
+                        <li><a href="#">2 000 рублей</a></li>
+                        <li><a href="#">5 000 рублей</a></li>
+                        <li><a href="#">6 000 рублей</a></li>
+                        <li><a href="#">7 000 рублей</a></li>
+                        <li><a href="#">8 000 рублей</a></li>
+                    </ul>
+                </div>
+
+                <div class="relink-column" data-relink-column="root">
+                    <ul class="relink-column__list" data-relink-column="list">
+                        <li><a href="#">100 рублей</a></li>
+                        <li><a href="#">500 рублей</a></li>
+                        <li><a href="#">1 000 рублей</a></li>
+                        <li><a href="#">2 000 рублей</a></li>
+                        <li><a href="#">5 000 рублей</a></li>
+                        <li><a href="#">6 000 рублей</a></li>
+                        <li><a href="#">7 000 рублей</a></li>
+                        <li><a href="#">8 000 рублей</a></li>
+                    </ul>
+                </div>
+
+                <div class="relink-column" data-relink-column="root">
+                    <ul class="relink-column__list" data-relink-column="list">
+                        <li><a href="#">100 рублей</a></li>
+                        <li><a href="#">500 рублей</a></li>
+                        <li><a href="#">1 000 рублей</a></li>
+                        <li><a href="#">2 000 рублей</a></li>
+                        <li><a href="#">5 000 рублей</a></li>
+                        <li><a href="#">6 000 рублей</a></li>
+                        <li><a href="#">7 000 рублей</a></li>
+                        <li><a href="#">8 000 рублей</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Перелинковка //end-->
+
+    <!--Перелинковка-->
+    <section class="section">
+        <div class="updated-container">
+            <h2>Популярные займы</h2>
+            <div class="relink-blocks-container" data-relink-blocks-container="root">
+                <div class="relink-column" data-relink-column="root">
+                    <ul class="relink-column__list" data-relink-column="list">
+                        <li><a href="#">Безработным</a></li>
+                        <li><a href="#">Пенсионерам</a></li>
+                        <li><a href="#">Студентам</a></li>
+                        <li><a href="#">Бизнес</a></li>
+                        <li><a href="#">С 18 лет</a></li>
+                        <li><a href="#">С 19 лет</a></li>
+                        <li><a href="#">С 20 лет</a></li>
+                        <li><a href="#">С 21 года</a></li>
+                    </ul>
+                </div>
+                <div class="relink-column" data-relink-column="root">
+                    <ul class="relink-column__list" data-relink-column="list">
+                        <li><a href="#">Безработным</a></li>
+                        <li><a href="#">Пенсионерам</a></li>
+                        <li><a href="#">Студентам</a></li>
+                        <li><a href="#">Бизнес</a></li>
+                        <li><a href="#">С 18 лет</a></li>
+                        <li><a href="#">С 19 лет</a></li>
+                        <li><a href="#">С 20 лет</a></li>
+                        <li><a href="#">С 21 года</a></li>
+                    </ul>
+                </div>
+                <div class="relink-column" data-relink-column="root">
+                    <ul class="relink-column__list" data-relink-column="list">
+                        <li><a href="#">Безработным</a></li>
+                        <li><a href="#">Пенсионерам</a></li>
+                        <li><a href="#">Студентам</a></li>
+                        <li><a href="#">Бизнес</a></li>
+                        <li><a href="#">С 18 лет</a></li>
+                        <li><a href="#">С 19 лет</a></li>
+                        <li><a href="#">С 20 лет</a></li>
+                        <li><a href="#">С 21 года</a></li>
+                    </ul>
+                </div>
+                <div class="relink-column" data-relink-column="root">
+                    <ul class="relink-column__list" data-relink-column="list">
+                        <li><a href="#">Безработным</a></li>
+                        <li><a href="#">Пенсионерам</a></li>
+                        <li><a href="#">Студентам</a></li>
+                        <li><a href="#">Бизнес</a></li>
+                        <li><a href="#">С 18 лет</a></li>
+                        <li><a href="#">С 19 лет</a></li>
+                        <li><a href="#">С 20 лет</a></li>
+                        <li><a href="#">С 21 года</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Перелинковка //end-->
+
 </main>
+<scripts>
+    <!--Старые скрипты-->
+    <script src="./src/files_from_site/js/js_p9xloyL4m8a_nO79u_U6cAJMIKA-n9vFAZpIGvmAizI.js"></script>
+    <script src="./src/files_from_site/js/js_p9xloyL4m8a_nO79u_U6cAJMIKA-n9vFAZpIGvmAizs.js"></script>
+    <!--Старые скрипты //end-->
+
+    <!--Новые скрипты-->
+    <script src="./src/new_files/js/libs/slick-slider/slick.min.js"></script>
+
+    <script src="./src/new_files/js/entities/relink-column/relink-column.js"></script>
+
+    <script src="./src/new_files/js/widgets/relink-blocks-container/relink-blocks-container.js"></script>
+
+    <script src="./src/new_files/js/pages/main-page/main-page.js"></script>
+    <!--Новые скрипты-->
+</scripts>
+
 </body>
 </html>

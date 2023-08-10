@@ -1,0 +1,17 @@
+.relink-blocks-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 10px;
+}
+
+@media screen and (min-width: 991px) {
+    .relink-blocks-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .relink-blocks-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

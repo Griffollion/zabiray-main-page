@@ -1,0 +1,19 @@
+.news-grid .grid-item {
+    border-radius: 5px;
+    border: 1px solid #E5E5E5;
+}
+
+.news-grid .grid-item .info {
+    padding: 15px;
+}
+
+.news-grid .grid-item .image {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+@media screen and (min-width: 1200px) {
+    .grid.news-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
