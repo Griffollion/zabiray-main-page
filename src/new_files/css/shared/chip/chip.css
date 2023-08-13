@@ -1,69 +1,35 @@
 .chip {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
-    padding: 7px 14px;
-    color: #0E1829;
-    border: 1px solid #EBEBEB;
-    border-radius: 3px;
+    padding: 9px 14px;
+    border: 1px solid #E5E5E5;
+    border-radius: 5px;
     transition: border-color .25s, color .25s;
     cursor: pointer;
     display: inline-flex;
     gap: 10px;
     white-space: nowrap;
     background-color: #fff;
+    color: #3B3434;
+    text-decoration: none !important;
 }
 
 .chip.active {
-    color: #14509C;
-    border-color: #14509C;
-    box-shadow: inset 0 0 0 1px #14509C;
+    color: #3B3434;
+    border-color: #3B3434;
+    box-shadow: inset 0 0 0 1px #3B3434;
 }
 
 @media (hover: hover) {
     .chip:hover {
-        color: #14509C;
-        border-color: #14509C;
+        color: #3B3434;
+        border-color: #3B3434;
     }
-}
-
-
-.chip.chip--blue {
-    background-color: #EBF6FB;
-    border-color: #EBF6FB;
-}
-
-.chip.chip--s {
-    font-size: 12px;
-    line-height: 14px;
-    padding: 7px 9px;
-}
-
-.chip.chip--l {
-    font-size: 14px;
-    line-height: 20px;
-    padding: 9px 14px;
-}
-
-.chip.chip--ad {
-    animation: ad-chip-an 4s ease-in-out infinite;
-    text-align: center;
-    justify-content: center;
-    color: #fff;
 }
 
 .chip.disabled {
     color: #B7BEC7;
     background-color: rgba(236, 241, 243, 1);
-    border: 1px solid #EBEBEB;
+    border: 1px solid #E5E5E5;
     pointer-events: none;
-}
-
-@keyframes ad-chip-an {
-    0%,
-    100% {
-        background-color: #fff;
-    }
-    50% {
-        background-color: #EBF6FB;
-    }
 }

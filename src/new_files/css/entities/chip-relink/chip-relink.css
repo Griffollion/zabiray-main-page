@@ -1,0 +1,27 @@
+.chip-relink__content {
+    display: flex;
+    gap: 5px;
+    white-space: nowrap;
+}
+
+.chip-relink.chip-relink--mob-full-width {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.chip-relink.chip-relink--mob-full-width .chip-relink__content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media screen and (min-width: 1200px) {
+    .chip-relink.chip-relink--mob-full-width {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .chip-relink.chip-relink--mob-full-width .chip-relink__content {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

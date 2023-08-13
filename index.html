@@ -14,7 +14,10 @@
     <!--Старые стили //end-->
 
     <!--Новые стили-->
-    <link rel="stylesheet" href="./src/new_files/css/core/typography/typography.css">
+    <link rel="stylesheet" href="src/new_files/css/core/typography.css">
+    <link rel="stylesheet" href="src/new_files/css/core/margins.css">
+    <link rel="stylesheet" href="src/new_files/css/core/paddings.css">
+    <link rel="stylesheet" href="src/new_files/css/core/core.css">
 
     <link rel="stylesheet" href="./src/new_files/css/libs/sick-slider/slick.css">
     <link rel="stylesheet" href="./src/new_files/css/libs/sick-slider/slick-custom.css">
@@ -22,27 +25,144 @@
     <link rel="stylesheet" href="./src/new_files/css/shared/updated-container/updated-container.css">
     <link rel="stylesheet" href="./src/new_files/css/shared/section/section.css">
     <link rel="stylesheet" href="./src/new_files/css/shared/chip/chip.css">
+    <link rel="stylesheet" href="./src/new_files/css/shared/invisible-scroll/invisible-scroll.css">
 
     <link rel="stylesheet" href="./src/new_files/css/entities/expert-card/expert-card.css">
     <link rel="stylesheet" href="./src/new_files/css/entities/details/details.css">
     <link rel="stylesheet" href="./src/new_files/css/entities/relink-column/relink-column.css">
     <link rel="stylesheet" href="./src/new_files/css/entities/review/review.css">
+    <link rel="stylesheet" href="./src/new_files/css/entities/chip-relink/chip-relink.css">
 
     <link rel="stylesheet" href="./src/new_files/css/widgets/expert-opinion/expert-opinion.css">
     <link rel="stylesheet" href="./src/new_files/css/widgets/updated-table/updated-table.css">
     <link rel="stylesheet" href="./src/new_files/css/widgets/news-grid/news-grid.css">
     <link rel="stylesheet" href="./src/new_files/css/widgets/relink-blocks-container/relink-blocks-container.css">
     <link rel="stylesheet" href="./src/new_files/css/widgets/reviews-slider/reviews-slider.css">
+
+    <link rel="stylesheet" href="./src/new_files/css/pages/main-page/main-page.css">
     <!--Новые стили //end-->
 </head>
 <body>
 <main>
+    <!--Вступительный блок-->
+    <!--TODO: Вступительный блок -->
+    <section class="section opening-block">
+        <div class="updated-container">
+            <div class="opening-block__content">
+                <div class="opening-block__info">
+                    <div class="header opening-block__title">
+                        <h1>ЗАЙМЫ ОНЛАЙН</h1>
+                    </div>
+                    <p class="opening-block__text">
+                        Быстро. Надёжно. Онлайн. Быстро. Надёжно. Онлайн. Быстро. Надёжно. Онлайн. Быстро. Надёжно.
+                        Онлайн.
+                    </p>
+
+                </div>
+                <div class="opening-block__img">
+                    <img src="./src/new_files/img/pages/main-page/girl.png" alt="Девушка">
+                </div>
+            </div>
+            <!--Десктопная перелинковка-->
+            <!--TODO: для вывода перелинковки нужен рендер по условию. В моб версии рендерим ее за первым блоком section. В результрующем коде у юзера должен быть всего лишь 1 блок. с chip-relink-->
+            <div class="opening-block__relink">
+                <div class="chip-relink chip-relink--mob-full-width">
+                    <div class="invisible-scroll" data-invisible-scroll="root">
+                        <div class="invisible-scroll__wrapper" data-invisible-scroll="container">
+                            <nav class="chip-relink__content">
+                                <a href="#" class="chip">
+                                    Займы на карту
+                                </a>
+                                <a href="#" class="chip">
+                                    Займы через перевод
+                                </a>
+                                <a href="#" class="chip">
+                                    Займы без отказа
+                                </a>
+                                <a href="#" class="chip">
+                                    Займы с плохой КИ
+                                </a>
+                                <a href="#" class="chip">
+                                    Займы через перевод
+                                </a>
+                                <a href="#" class="chip">
+                                    Без отказа
+                                </a>
+                                <a href="#" class="chip">
+                                    Без отказа
+                                </a>
+                                <a href="#" class="chip">
+                                    Без отказа
+                                </a>
+                                <a href="#" class="chip">
+                                    Без отказа
+                                </a>
+                                <a href="#" class="chip">
+                                    Без отказа
+                                </a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Десктопная перелинковка //end-->
+        </div>
+    </section>
+    <!--Вступительный блок //end-->
+
+    <!--Мобильная перелинковка-->
+    <!--TODO: для вывода перелинковки нужен рендер по условию. В моб версии рендерим ее за первым блоком section. В результрующем коде у юзера должен быть всего лишь 1 блок. с chip-relink-->
+    <div class="bg-white pt-10">
+        <div class="updated-container">
+            <div class="chip-relink chip-relink--mob-full-width">
+                <div class="invisible-scroll" data-invisible-scroll="root">
+                    <div class="invisible-scroll__wrapper" data-invisible-scroll="container">
+                        <nav class="chip-relink__content">
+                            <a href="#" class="chip">
+                                Займы на карту
+                            </a>
+                            <a href="#" class="chip">
+                                Займы через перевод
+                            </a>
+                            <a href="#" class="chip">
+                                Займы без отказа
+                            </a>
+                            <a href="#" class="chip">
+                                Займы с плохой КИ
+                            </a>
+                            <a href="#" class="chip">
+                                Займы через перевод
+                            </a>
+                            <a href="#" class="chip">
+                                Без отказа
+                            </a>
+                            <a href="#" class="chip">
+                                Без отказа
+                            </a>
+                            <a href="#" class="chip">
+                                Без отказа
+                            </a>
+                            <a href="#" class="chip">
+                                Без отказа
+                            </a>
+                            <a href="#" class="chip">
+                                Без отказа
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Мобильная перелинковка блок-->
 
     <!--Отзывы-->
     <!--TODO: новые стили и разметка -->
     <section class="section section--indent-bottom">
         <div class="updated-container">
-            <h2>Отзывы клиентов, получивших онлайн-займ</h2>
+            <div class="header mb-20">
+                <h3>Отзывы клиентов, получивших онлайн-займ</h3>
+            </div>
             <div class="reviews-slider">
                 <div class="reviews-slider__slider" data-reviews-slider="slider">
                     <div class="reviews-slider__item">
@@ -53,7 +173,8 @@
                                 </div>
 
                                 <div class="review__rating">
-                                    <span class="review__rating-text">5</span> <img src="./src/new_files/img/icons/icon-star-filled.svg" alt="рейтинг">
+                                    <span class="review__rating-text">5</span> <img
+                                        src="./src/new_files/img/icons/icon-star-filled.svg" alt="рейтинг">
                                 </div>
                             </div>
 
@@ -64,7 +185,8 @@
                                 В начале июня ходили подписывать договоры на ипотеку в тульское отделение ГПБ на Ленина,
                                 106. Была очередь, все менеджеры заняты, наша в том числе. Живот не очень большой,
                                 поэтому окружающие его не заметили, нас, естественно, никто не пропустил. А вот менеджер
-                                увидела, обслужила клиента, извинилась перед... <a href="#" class="review__more-link">Читать далее</a>
+                                увидела, обслужила клиента, извинилась перед... <a href="#" class="review__more-link">Читать
+                                далее</a>
                             </div>
                         </div>
                     </div>
@@ -76,7 +198,8 @@
                                 </div>
 
                                 <div class="review__rating">
-                                    <span class="review__rating-text">5</span> <img src="./src/new_files/img/icons/icon-star-filled.svg" alt="рейтинг">
+                                    <span class="review__rating-text">5</span> <img
+                                        src="./src/new_files/img/icons/icon-star-filled.svg" alt="рейтинг">
                                 </div>
                             </div>
 
@@ -91,7 +214,8 @@
                                 В начале июня ходили подписывать договоры на ипотеку в тульское отделение ГПБ на Ленина,
                                 106. Была очередь, все менеджеры заняты, наша в том числе. Живот не очень большой,
                                 поэтому окружающие его не заметили, нас, естественно, никто не пропустил. А вот менеджер
-                                увидела, обслужила клиента, извинилась перед... <a href="#" class="review__more-link">Читать далее</a>
+                                увидела, обслужила клиента, извинилась перед... <a href="#" class="review__more-link">Читать
+                                далее</a>
                             </div>
                         </div>
                     </div>
@@ -103,7 +227,8 @@
                                 </div>
 
                                 <div class="review__rating">
-                                    <span class="review__rating-text">5</span> <img src="./src/new_files/img/icons/icon-star-filled.svg" alt="рейтинг">
+                                    <span class="review__rating-text">5</span> <img
+                                        src="./src/new_files/img/icons/icon-star-filled.svg" alt="рейтинг">
                                 </div>
                             </div>
 
@@ -114,7 +239,8 @@
                                 В начале июня ходили подписывать договоры на ипотеку в тульское отделение ГПБ на Ленина,
                                 106. Была очередь, все менеджеры заняты, наша в том числе. Живот не очень большой,
                                 поэтому окружающие его не заметили, нас, естественно, никто не пропустил. А вот менеджер
-                                увидела, обслужила клиента, извинилась перед... <a href="#" class="review__more-link">Читать далее</a>
+                                увидела, обслужила клиента, извинилась перед... <a href="#" class="review__more-link">Читать
+                                далее</a>
                             </div>
                         </div>
                     </div>
@@ -131,7 +257,9 @@
     <!--TODO: новые стили и разметка -->
     <section class="section section--indent-bottom">
         <div class="updated-container">
-            <h2>Пример расчета займа онлайн</h2>
+            <div class="header mb-20">
+                <h3>Пример расчета займа онлайн</h3>
+            </div>
             <div class="updated-table mob:updated-table--negative-margins">
                 <table class="updated-table__table">
                     <thead>
@@ -166,7 +294,9 @@
     <!--TODO: новые стили и разметка -->
     <section class="section section--indent-bottom">
         <div class="updated-container">
-            <h2>Займ онлайн — мнение эксперта</h2>
+            <div class="header mb-20">
+                <h3>Займ онлайн — мнение эксперта</h3>
+            </div>
             <div class="expert-opinion">
                 <div class="expert-opinion__expert">
                     <div class="expert-card">
@@ -202,7 +332,9 @@
     <!--Новости-->
     <section class="section section--indent-bottom">
         <div class="updated-container">
-            <h2>Новости</h2>
+            <div class="header mb-20">
+                <h2>Новости</h2>
+            </div>
             <adise>
                 <!--TODO: добавил всего лишь один класс в div с классом grid. Все остальное такое же как и сейчас на ресурсе -->
                 <div class="grid news-grid">
@@ -277,7 +409,9 @@
     <!--TODO: новые стили и разметка -->
     <section class="section section--indent-bottom">
         <div class="updated-container">
-            <h2>Отвечаем на вопросы о займах онлайн</h2>
+            <div class="header mb-20">
+                <h2>Отвечаем на вопросы о займах онлайн</h2>
+            </div>
             <div class="details">
                 <details>
                     <summary>Отвечаем на вопросы о займах онлайн</summary>
@@ -308,7 +442,9 @@
     <!--TODO: новые стили и разметка -->
     <section class="section section--indent-bottom">
         <div class="updated-container">
-            <h2>Популярные займы</h2>
+            <div class="header mb-20">
+                <h3>Популярные займы</h3>
+            </div>
             <div class="relink-blocks-container" data-relink-blocks-container="root">
                 <div class="relink-column" data-relink-column="root">
                     <ul class="relink-column__list" data-relink-column="list">
@@ -370,7 +506,9 @@
     <!--TODO: новые стили и разметка -->
     <section class="section section--indent-bottom">
         <div class="updated-container">
-            <h2>Займы в городах</h2>
+            <div class="header mb-20">
+                <h3>Займы в городах</h3>
+            </div>
             <div class="relink-blocks-container" data-relink-blocks-container="root">
                 <div class="relink-column" data-relink-column="root">
                     <ul class="relink-column__list" data-relink-column="list">
@@ -432,7 +570,9 @@
     <!--TODO: новые стили и разметка -->
     <section class="section section--indent-bottom">
         <div class="updated-container">
-            <h2>Популярные займы</h2>
+            <div class="header mb-20">
+                <h3>Популярные займы</h3>
+            </div>
             <div class="relink-blocks-container" data-relink-blocks-container="root">
                 <div class="relink-column" data-relink-column="root">
                     <ul class="relink-column__list" data-relink-column="list">
@@ -495,6 +635,8 @@
 
     <!--Новые скрипты-->
     <script src="./src/new_files/js/libs/slick-slider/slick.min.js"></script>
+
+    <script src="./src/new_files/js/shared/invisible-scroll/invisible-scroll.js"></script>
 
     <script src="./src/new_files/js/entities/relink-column/relink-column.js"></script>
 

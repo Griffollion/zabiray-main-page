@@ -1,0 +1,32 @@
+.invisible-scroll {
+
+}
+
+.invisible-scroll.invisible-scroll--with-buttons {
+    position: relative;
+}
+
+.invisible-scroll__wrapper,
+[data-invisible-scroll="container"] {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+}
+
+.invisible-scroll__wrapper::-webkit-scrollbar,
+[data-invisible-scroll="container"]::-webkit-scrollbar {
+    display: none;
+}
+
+.invisible-scroll__btn {
+    position: absolute;
+    cursor: pointer;
+}
+
+.invisible-scroll__btn.invisible-scroll__btn--prev {
+
+}
+
+.invisible-scroll__btn.invisible-scroll__btn--next {
+
+}

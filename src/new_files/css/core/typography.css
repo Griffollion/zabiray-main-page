@@ -1,0 +1,42 @@
+.header h1,
+.header h2,
+.header h3,
+.header h4 {
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.header h1 {
+    font-size: 24px;
+}
+
+.header h2 {
+    font-size: 22px;
+}
+
+.header h3 {
+    font-size: 18px;
+}
+
+.header h4 {
+    font-size: 16px;
+}
+
+
+@media screen and (min-width: 1200px) {
+    .header h1 {
+        font-size: 50px;
+    }
+
+    .header h2 {
+        font-size: 50px;
+    }
+
+    .header h3 {
+        font-size: 38px;
+    }
+
+    .header h4 {
+        font-size: 30px;
+    }
+}
