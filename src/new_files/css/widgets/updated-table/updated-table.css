@@ -40,8 +40,43 @@
 .updated-table td {
     font-size: 14px;
     line-height: 18px;
+}
+
+.updated-table.updated-table--accented td {
     font-weight: 700;
 }
+
+/*updated-table--no-borders*/
+.updated-table.updated-table--no-borders {
+    border: none;
+}
+
+.updated-table.updated-table--no-borders th,
+.updated-table.updated-table--no-borders td {
+    padding-top: 15px;
+    padding-bottom: 0;
+    padding-right: 20px;
+    border-bottom: none;
+}
+
+.updated-table.updated-table--no-borders th:first-child,
+.updated-table.updated-table--no-borders td:first-child {
+    padding-left: 0
+}
+
+.updated-table.updated-table--no-borders th:last-child,
+.updated-table.updated-table--no-borders td:last-child {
+    padding-right: 0;
+}
+/*updated-table--no-borders //end*/
+
+/*updated-table--width-auto*/
+.updated-table.updated-table--width-auto .updated-table__table {
+    width: auto;
+}
+/*updated-table--width-auto*/
+
+
 
 @media screen and (max-width: 767px) {
     .mob\:updated-table--negative-margins {

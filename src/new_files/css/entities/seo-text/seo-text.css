@@ -1,0 +1,95 @@
+.seo-text {
+
+}
+
+.seo-text h1,
+.seo-text h2,
+.seo-text h3,
+.seo-text h4,
+.seo-text h5 {
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 30px 0 20px !important;
+}
+
+.seo-text h1 {
+    font-size: 24px;
+}
+
+.seo-text h2 {
+    font-size: 22px;
+}
+
+.seo-text h3 {
+    font-size: 18px;
+}
+
+.seo-text h4 {
+    font-size: 16px;
+}
+
+.seo-text h5 {
+    font-size: 16px;
+}
+
+.seo-text p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.seo-text p a {
+    text-decoration: underline;
+}
+
+.seo-text ol,
+.seo-text ul {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.seo-text li {
+    list-style: inside;
+}
+
+
+.seo-text > * {
+    margin-bottom: 15px !important;
+}
+
+.seo-text > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+.seo-text > *:first-child {
+    margin-top: 0 !important;
+}
+
+
+@media screen and (min-width: 1200px) {
+    .seo-text h1 {
+        font-size: 50px;
+    }
+
+    .seo-text h2 {
+        font-size: 50px;
+    }
+
+    .seo-text h3 {
+        font-size: 38px;
+    }
+
+    .seo-text h4 {
+        font-size: 30px;
+    }
+
+    .seo-text h5 {
+        font-size: 28px;
+    }
+
+    .seo-text p,
+    .seo-text ol,
+    .seo-text ul {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
