@@ -1,0 +1,18 @@
+.products-tiles-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 10px;
+}
+
+@media screen and (min-width: 991px) {
+    .products-tiles-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .products-tiles-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

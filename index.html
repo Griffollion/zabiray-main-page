@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="./src/new_files/css/libs/sick-slider/slick.css">
     <link rel="stylesheet" href="./src/new_files/css/libs/sick-slider/slick-custom.css">
 
+    <link rel="stylesheet" href="./src/new_files/css/shared/button/button.css">
     <link rel="stylesheet" href="./src/new_files/css/shared/updated-container/updated-container.css">
     <link rel="stylesheet" href="./src/new_files/css/shared/section/section.css">
     <link rel="stylesheet" href="./src/new_files/css/shared/chip/chip.css">
@@ -32,6 +33,8 @@
     <link rel="stylesheet" href="./src/new_files/css/entities/relink-column/relink-column.css">
     <link rel="stylesheet" href="./src/new_files/css/entities/review/review.css">
     <link rel="stylesheet" href="./src/new_files/css/entities/chip-relink/chip-relink.css">
+    <link rel="stylesheet" href="./src/new_files/css/entities/product-tile/product-tile.css">
+    <link rel="stylesheet" href="./src/new_files/css/entities/products-tiles-grid/products-tiles-grid.css">
 
     <link rel="stylesheet" href="./src/new_files/css/widgets/expert-opinion/expert-opinion.css">
     <link rel="stylesheet" href="./src/new_files/css/widgets/updated-table/updated-table.css">
@@ -45,7 +48,7 @@
 <body>
 <main>
     <!--Вступительный блок-->
-    <!--TODO: Вступительный блок -->
+    <!--TODO: Вступительный блок. Новые стили и разметка  -->
     <section class="section opening-block">
         <div class="updated-container">
             <div class="opening-block__content">
@@ -64,7 +67,7 @@
                 </div>
             </div>
             <!--Десктопная перелинковка-->
-            <!--TODO: для вывода перелинковки нужен рендер по условию. В моб версии рендерим ее за первым блоком section. В результрующем коде у юзера должен быть всего лишь 1 блок. с chip-relink-->
+            <!--TODO: для вывода перелинковки нужен рендер по условию. В моб версии рендерим ее за первым блоком section. В результрующем коде у юзера должен быть всего лишь 1 блок. с chip-relink. Новые стили и разметка-->
             <div class="opening-block__relink">
                 <div class="chip-relink chip-relink--mob-full-width">
                     <div class="invisible-scroll" data-invisible-scroll="root">
@@ -111,7 +114,7 @@
     <!--Вступительный блок //end-->
 
     <!--Мобильная перелинковка-->
-    <!--TODO: для вывода перелинковки нужен рендер по условию. В моб версии рендерим ее за первым блоком section. В результрующем коде у юзера должен быть всего лишь 1 блок. с chip-relink-->
+    <!--TODO: для вывода перелинковки нужен рендер по условию. В моб версии рендерим ее за первым блоком section. В результрующем коде у юзера должен быть всего лишь 1 блок. с chip-relink. Новые стили и разметка-->
     <div class="bg-white pt-10">
         <div class="updated-container">
             <div class="chip-relink chip-relink--mob-full-width">
@@ -155,6 +158,173 @@
         </div>
     </div>
     <!--Мобильная перелинковка блок-->
+
+    <!--Карточки продуктов-->
+    <!--TODO: новые стили и разметка -->
+    <section class="section section--indent-bottom">
+        <div class="updated-container">
+            <div class="flex mb-20">
+                <div class="header">
+                    <h3>Наши займы онлайн</h3>
+                </div>
+            </div>
+
+            <div class="products-tiles-grid">
+                <div class="product-tile">
+                    <div class="product-tile__head">
+                        <div class="product-tile__icon">
+                            <img src="./src/new_files/img/pages/main-page/tariff-icon.png" alt="Название продукта">
+                        </div>
+                        <div class="product-tile__name">МИНУТОЧКА</div>
+                    </div>
+
+                    <div class="product-tile__description">
+                        <div class="product-tile__description-item">
+                            Ставка 0.8% в день
+                        </div>
+                        <div class="product-tile__description-item">
+                            Возврат займа и процентов в конце срока
+                        </div>
+                    </div>
+
+                    <div class="product-tile__options">
+                        <div class="product-tile__option">
+                            <div class="product-tile__option-icon">
+                                <img src="./src/new_files/img/icons/icon-coins.svg" alt="монеты">
+                            </div>
+
+                            <div class="product-tile__option-title">
+                                Сумма
+                            </div>
+
+                            <div class="product-tile__option-value">
+                                от 1 500 до 15 000
+                            </div>
+                        </div>
+
+                        <div class="product-tile__option">
+                            <div class="product-tile__option-icon">
+                                <img src="./src/new_files/img/icons/icon-fast.svg" alt="часы">
+                            </div>
+
+                            <div class="product-tile__option-title">
+                                На срок
+                            </div>
+
+                            <div class="product-tile__option-value">
+                                от 5 до 30 дней
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-tile__btn">
+                        <a href="#" class="button button--block">ЗАБИРАЙ</a>
+                    </div>
+                </div>
+                <div class="product-tile">
+                    <div class="product-tile__head">
+                        <div class="product-tile__icon">
+                            <img src="./src/new_files/img/pages/main-page/tariff-icon.png" alt="Название продукта">
+                        </div>
+                        <div class="product-tile__name">СЕКУНДОЧКА</div>
+                    </div>
+
+                    <div class="product-tile__description">
+                        <div class="product-tile__description-item">
+                            Ставка 0.8% в день
+                        </div>
+                        <div class="product-tile__description-item">
+                            Возврат займа и процентов в конце срока
+                        </div>
+                    </div>
+
+                    <div class="product-tile__options">
+                        <div class="product-tile__option">
+                            <div class="product-tile__option-icon">
+                                <img src="./src/new_files/img/icons/icon-coins.svg" alt="монеты">
+                            </div>
+
+                            <div class="product-tile__option-title">
+                                Сумма
+                            </div>
+
+                            <div class="product-tile__option-value">
+                                от 1 500 до 15 000
+                            </div>
+                        </div>
+
+                        <div class="product-tile__option">
+                            <div class="product-tile__option-icon">
+                                <img src="./src/new_files/img/icons/icon-fast.svg" alt="часы">
+                            </div>
+
+                            <div class="product-tile__option-title">
+                                На срок
+                            </div>
+
+                            <div class="product-tile__option-value">
+                                от 5 до 30 дней
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-tile__btn">
+                        <a href="#" class="button button--block">ЗАБИРАЙ</a>
+                    </div>
+                </div>
+                <div class="product-tile">
+                    <div class="product-tile__head">
+                        <div class="product-tile__icon">
+                            <img src="./src/new_files/img/pages/main-page/tariff-icon.png" alt="Название продукта">
+                        </div>
+                        <div class="product-tile__name">ЧАСИК</div>
+                    </div>
+
+                    <div class="product-tile__description">
+                        <div class="product-tile__description-item">
+                            Ставка 0.8% в день
+                        </div>
+                        <div class="product-tile__description-item">
+                            Возврат займа и процентов в конце срока
+                        </div>
+                    </div>
+
+                    <div class="product-tile__options">
+                        <div class="product-tile__option">
+                            <div class="product-tile__option-icon">
+                                <img src="./src/new_files/img/icons/icon-coins.svg" alt="монеты">
+                            </div>
+
+                            <div class="product-tile__option-title">
+                                Сумма
+                            </div>
+
+                            <div class="product-tile__option-value">
+                                от 1 500 до 15 000
+                            </div>
+                        </div>
+
+                        <div class="product-tile__option">
+                            <div class="product-tile__option-icon">
+                                <img src="./src/new_files/img/icons/icon-fast.svg" alt="часы">
+                            </div>
+
+                            <div class="product-tile__option-title">
+                                На срок
+                            </div>
+
+                            <div class="product-tile__option-value">
+                                от 5 до 30 дней
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-tile__btn">
+                        <a href="#" class="button button--block">ЗАБИРАЙ</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!--Карточки продуктов //end-->
 
     <!--Отзывы-->
     <!--TODO: новые стили и разметка -->
@@ -246,8 +416,8 @@
                     </div>
                 </div>
             </div>
-            <div class="flex justify-content-center">
-                <a class="btn btn-primary" style="display: block"><span>Оставить отзыв</span></a>
+            <div class="flex justify-content-center mt-20">
+                <a href="#" class="button button--ghost">ОСТАВИТЬ ОТЗЫВ</a>
             </div>
         </div>
     </section>
@@ -396,11 +566,10 @@
                         </span>
                     </div>
                 </div>
-
-                <div class="flex justify-content-center">
-                    <a class="btn btn-primary" style="display: block"><span>Получить заем</span></a>
-                </div>
             </adise>
+            <div class="flex justify-content-center">
+                <a href="#" class="button">ВСЕ НОВОСТИ</a>
+            </div>
         </div>
     </section>
     <!--Новости //end-->

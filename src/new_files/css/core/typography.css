@@ -4,6 +4,7 @@
 .header h4 {
     font-weight: 600;
     line-height: 1.2;
+    margin: 0 !important;
 }
 
 .header h1 {
