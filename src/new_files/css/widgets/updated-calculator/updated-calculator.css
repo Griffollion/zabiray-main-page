@@ -78,41 +78,6 @@
     line-height: 18px;
 }
 
-.updated-calculator__chart-wrapper {
-    display: flex;
-    justify-content: center;
-}
-
-.updated-calculator__chart {
-    width: 220px;
-    height: 220px;
-    position: relative;
-}
-
-.updated-calculator__chart-info {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.updated-calculator__chart-title {
-    text-align: center;
-    color: #7A7A7A;
-    font-size: 18px;
-    line-height: 18px;
-    margin-bottom: 5px;
-}
-
-.updated-calculator__chart-value {
-    text-align: center;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 30px;
-}
-
 .updated-calculator__description {
     margin-top: 20px;
 }
@@ -152,11 +117,11 @@
 .updated-calculator__form-row.updated-calculator__form-row--btn #calc_butt:hover {
     background-color: #fff;
 }
-/*updated-calculator--with-chart*/
-.updated-calculator.updated-calculator--with-chart .updated-calculator__form {
+/*updated-calculator--v2*/
+.updated-calculator.updated-calculator--v2 .updated-calculator__form {
     margin-bottom: 30px;
 }
-/*updated-calculator--with-chart //end*/
+/*updated-calculator--v2 //end*/
 
 
 
@@ -192,33 +157,32 @@
         line-height: 24px;
     }
 
-    /*updated-calculator--with-chart*/
-    .updated-calculator.updated-calculator--with-chart .updated-calculator__form {
+    /*updated-calculator--v2*/
+    .updated-calculator.updated-calculator--v2 .updated-calculator__form {
         display: block;
-        margin-right: 40px;
         margin-bottom: 0;
     }
 
-    .updated-calculator.updated-calculator--with-chart .updated-calculator__content {
+    .updated-calculator.updated-calculator--v2 .updated-calculator__content {
         display: grid;
-        grid-template-columns: 1fr 220px 320px;
+        grid-template-columns: 1.5fr 1fr;
         align-items: center;
-        gap: 20px;
+        gap: 60px;
     }
 
-    .updated-calculator.updated-calculator--with-chart .updated-calculator__form-row {
+    .updated-calculator.updated-calculator--v2 .updated-calculator__form-row {
         margin-bottom: 20px;
     }
 
-    .updated-calculator.updated-calculator--with-chart .updated-calculator__form-row:last-child {
+    .updated-calculator.updated-calculator--v2 .updated-calculator__form-row:last-child {
         margin-bottom: 0;
     }
 
-    .updated-calculator.updated-calculator--with-chart .updated-calculator__description {
+    .updated-calculator.updated-calculator--v2 .updated-calculator__description {
         margin-top: 0;
     }
 
-    /*updated-calculator--with-chart //end*/
+    /*updated-calculator--v2 //end*/
 }
 
 
