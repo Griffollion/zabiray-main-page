@@ -55,6 +55,10 @@
     display: none;
 }
 
+.updated-calculator__form-row.updated-calculator__form-row--btn #calc_butt:hover {
+    background-color: #fff;
+}
+
 @media screen and (min-width: 1200px) {
     .updated-calculator {
 
