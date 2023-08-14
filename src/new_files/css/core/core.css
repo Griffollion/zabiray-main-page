@@ -5,3 +5,32 @@
 .accent {
     font-weight: 700;
 }
+
+.rating {
+
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating-text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.rating img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    margin-left: 5px;
+    font-size: 0;
+}
+
+@media screen and (min-width: 1200px) {
+    .rating-text {
+        font-size: 18px;
+    }
+}

@@ -369,9 +369,13 @@
     <!--TODO: новые стили и разметка -->
     <section class="section section--indent-bottom">
         <div class="updated-container">
-            <div class="flex mb-20">
+            <div class="title-with-rating mb-20">
                 <div class="header">
                     <h3>Наши займы онлайн</h3>
+                </div>
+                <div class="rating">
+                    <span class="rating-text">Рейтинг: 5</span>
+                    <img loading="lazy" src="./src/new_files/img/icons/icon-star-filled.svg" alt="рейтинг">
                 </div>
             </div>
 
@@ -687,15 +691,23 @@
                             <div class="updated-calculator__description-row">
                                 <p class="updated-calculator__description-row-title">Общая выплат:</p>
                                 <p class="updated-calculator__description-row-value">
-                                    <span class="calc-total"></span>
+                                    <span class="calc-total">11 680 ₽</span>
                                 </p>
                             </div>
+                            <!--TODO переплата статическая т.к. боюсь что написав свой код подсчета сделаю только хуже-->
                             <div class="updated-calculator__description-row">
-                                <p class="updated-calculator__description-row-title">До (включительно)</p>
+                                <p class="updated-calculator__description-row-title">Перееплата</p>
                                 <p class="updated-calculator__description-row-value">
-                                    <span class="calc-day-short"></span>
+                                    80 ₽
                                 </p>
                             </div>
+                            <!--TODO на макете срок убрали-->
+<!--                            <div class="updated-calculator__description-row">-->
+<!--                                <p class="updated-calculator__description-row-title">До (включительно)</p>-->
+<!--                                <p class="updated-calculator__description-row-value">-->
+<!--                                    <span class="calc-day-short"></span>-->
+<!--                                </p>-->
+<!--                            </div>-->
                         </div>
                     </div>
                 </form>
