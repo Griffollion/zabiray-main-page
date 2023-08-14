@@ -359,27 +359,6 @@
                                 </button>
                             </div>
                         </div>
-
-                        <div class="updated-calculator__description">
-                            <div class="updated-calculator__description-row">
-                                <p class="updated-calculator__description-row-title">Сумма займа:</p>
-                                <p class="updated-calculator__description-row-value">
-                                    <span class="calc-summ">10 000 &#8381;</span>
-                                </p>
-                            </div>
-                            <div class="updated-calculator__description-row">
-                                <p class="updated-calculator__description-row-title">Общая выплат:</p>
-                                <p class="updated-calculator__description-row-value">
-                                    <span class="calc-total"></span>
-                                </p>
-                            </div>
-                            <div class="c">
-                                <p class="updated-calculator__description-row-title">До (включительно)</p>
-                                <p class="updated-calculator__description-row-value">
-                                    <span class="calc-day-short"></span>
-                                </p>
-                            </div>
-                        </div>
                     </div>
                 </form>
             </div>
@@ -635,6 +614,95 @@
         </div>
     </div>
     <!--Баннер продукта> //end-->
+
+    <!--Калькулятор займа-->
+    <section class="section section--indent-bottom">
+        <div class="updated-container">
+            <div class="updated-calculator updated-calculator--with-chart">
+                <form name="zaym_calc" method="post">
+                    <h3 class="updated-calculator__title">Калькулятор онлайн-займов</h3>
+                    <div class="updated-calculator__content">
+                        <div class="updated-calculator__form">
+                            <div class="updated-calculator__form-row param">
+                                <h4 class="updated-calculator__form-row-title">Сумма займа:</h4>
+                                <div class="updated-calculator__form-row-input">
+                                    <input type="text" value="10 000" class="calc-summ num">
+                                    <div class="calc-value-info calc-value-info-amount">
+                                      <span class="calc-summ">
+                                            10 000&nbsp;<small>&#8381;</small>
+                                      </span>
+                                    </div>
+                                </div>
+                                <div class="updated-calculator__form-row-range">
+                                    <div class="slider-range-box">
+                                        <div class="uislider summ"></div>
+                                    </div>
+                                    <p class="updated-calculator__form-row-range-label">
+                                        <span>1 500</span>
+                                        <span>15 000</span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="updated-calculator__form-row param">
+                                <h4 class="updated-calculator__form-row-title">Срок</h4>
+                                <div class="updated-calculator__form-row-input">
+                                    <input type="text" value="21" class="calc-limit num">
+                                    <div class="calc-value-info calc-value-info-term">
+                                        <span class="calc-limit">
+                                            21&nbsp;<small>дней</small>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="updated-calculator__form-row-range">
+                                    <div class="slider-range-box">
+                                        <div class="uislider limit"></div>
+                                    </div>
+                                    <p class="updated-calculator__form-row-range-label">
+                                        <span class="limit_min ">5 дней</span>
+                                        <span class="limit_max ">30 дней</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="updated-calculator__chart-wrapper">
+                            <div class="updated-calculator__chart">
+                                <div class="updated-calculator__chart-info">
+                                    <div class="updated-calculator__chart-title">Ставка</div>
+                                    <div class="updated-calculator__chart-value">0,8%</div>
+                                </div>
+
+                                <canvas id="chart"></canvas>
+                            </div>
+                        </div>
+
+                        <div class="updated-calculator__description">
+                            <div class="updated-calculator__description-row">
+                                <p class="updated-calculator__description-row-title">Сумма займа:</p>
+                                <p class="updated-calculator__description-row-value">
+                                    <span class="calc-summ">10 000 &#8381;</span>
+                                </p>
+                            </div>
+                            <div class="updated-calculator__description-row">
+                                <p class="updated-calculator__description-row-title">Общая выплат:</p>
+                                <p class="updated-calculator__description-row-value">
+                                    <span class="calc-total"></span>
+                                </p>
+                            </div>
+                            <div class="updated-calculator__description-row">
+                                <p class="updated-calculator__description-row-title">До (включительно)</p>
+                                <p class="updated-calculator__description-row-value">
+                                    <span class="calc-day-short"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!--Калькулятор займа //end-->
 
     <!--Отзывы-->
     <!--TODO: новые стили и разметка -->
@@ -1373,6 +1441,7 @@
 
     <!--Новые скрипты-->
     <script src="./src/new_files/js/libs/slick-slider/slick.min.js"></script>
+    <script src="./src/new_files/js/libs/chartjs/chartjs.js"></script>
 
     <script src="./src/new_files/js/shared/invisible-scroll/invisible-scroll.js"></script>
 
