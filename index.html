@@ -308,15 +308,18 @@
 
                     <input type="hidden" id="p1" attr-maxa="15000" attr-mina="1500" attr-mint="5" attr-maxt="30" attr-p="0.80" attr-sa="500" attr-st="1" attr-id="1" attr-labelt="дней" attr-isa="0" attr-timevalindex="1" attr-position="0">
                     <h3 class="updated-calculator__title">
-                        Рассчитайте займ по вашим параметрам
-                    </h3>
+                        Рассчитайте займ по вашим параметрам </h3>
                     <div class="updated-calculator__content">
                         <div class="updated-calculator__form">
-                            <div class="updated-calculator__form-row">
+                            <div class="updated-calculator__form-row param">
                                 <h4 class="updated-calculator__form-row-title">Сумма займа:</h4>
                                 <div class="updated-calculator__form-row-input">
-                                    <div class="calc-value-info calc-value-info-amount"></div>
                                     <input type="text" value="10 000" class="calc-summ num">
+                                    <div class="calc-value-info calc-value-info-amount">
+                                              <span class="calc-summ">
+                                                    10 000&nbsp;<small>&#8381;</small>
+                                                </span>
+                                    </div>
                                 </div>
                                 <div class="updated-calculator__form-row-range">
                                     <div class="slider-range-box">
@@ -329,11 +332,15 @@
                                 </div>
                             </div>
 
-                            <div class="updated-calculator__form-row">
+                            <div class="updated-calculator__form-row param">
                                 <h4 class="updated-calculator__form-row-title">Срок</h4>
                                 <div class="updated-calculator__form-row-input">
-                                    <div class="calc-value-info calc-value-info-term"></div>
                                     <input type="text" value="21" class="calc-limit num">
+                                    <div class="calc-value-info calc-value-info-term">
+                                        <span class="calc-limit">
+                                            21&nbsp;<small>дней</small>
+                                        </span>
+                                    </div>
                                 </div>
                                 <div class="updated-calculator__form-row-range">
                                     <div class="slider-range-box">
@@ -347,7 +354,9 @@
                             </div>
 
                             <div class="updated-calculator__form-row updated-calculator__form-row--btn">
-                                <button type="button" class="button button--block" name="btn_calc" id="calc_butt" value="1">РАССЧИТАТЬ</button>
+                                <button type="button" class="button button--block" name="btn_calc" id="calc_butt" value="1">
+                                    РАССЧИТАТЬ
+                                </button>
                             </div>
                         </div>
 
@@ -360,7 +369,9 @@
                             </div>
                             <div class="updated-calculator__description-row">
                                 <p class="updated-calculator__description-row-title">Общая выплат:</p>
-                                <p class="updated-calculator__description-row-value"><span class="calc-total"></span></p>
+                                <p class="updated-calculator__description-row-value">
+                                    <span class="calc-total"></span>
+                                </p>
                             </div>
                             <div class="c">
                                 <p class="updated-calculator__description-row-title">До (включительно)</p>
